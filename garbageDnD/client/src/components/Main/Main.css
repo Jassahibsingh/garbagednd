@@ -1,0 +1,14 @@
+.garbage {
+  transform: translate(-1%, -50%);
+}
+
+.garbage img {
+  transform: translateY(-100vh);
+  animation: fall 2s forwards;
+}
+
+@keyframes fall {
+  100% {
+    transform: translateY(0);
+  }
+}
